@@ -1,6 +1,8 @@
 # Hajime Studio landing page
 
-Vite + React + TypeScript landing page for Hajime Studio.
+Public landing page for **Hajime Studio** (好嚟喇製作公司).
+
+Stack: Vite + React + TypeScript.
 
 ## Local
 
@@ -18,4 +20,8 @@ npm run build
 npm run preview
 ```
 
-Palette: paper `#F6F1EA`, ink `#141414`, studio red `#B61231`.
+## Palette
+
+- Paper cream `#F6F1EA`
+- Ink `#141414`
+- Studio red `#B61231`
