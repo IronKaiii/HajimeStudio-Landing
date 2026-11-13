@@ -60,7 +60,7 @@ export function Nav() {
                 <path d="M16 14 H12" stroke="#F6F1EA" strokeWidth="2" strokeLinecap="round" />
               </svg>
             </span>
-            <span className="title-4">好嚟喇製作公司</span>
+            <span className="title-4">HAJIME STUDIO</span>
           </a>
 
           <div className="nav-links">

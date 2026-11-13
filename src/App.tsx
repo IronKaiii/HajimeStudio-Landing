@@ -73,6 +73,11 @@ const steps = [
 
 const socialWork = [
   {
+    label: "Feed",
+    src: "/assets/work/social-feed.png",
+    alt: "Instagram-style social feed grid of Hajime Studio vertical posts",
+  },
+  {
     label: "Production BTS",
     src: "/assets/work/social-bts.png",
     alt: "Behind the scenes camera crew filming a low angle shot at night",
@@ -171,7 +176,7 @@ const faqs = [
   },
   {
     q: "Do you only work in English?",
-    a: "English is our primary landing language. The studio name and on set communication stay bilingual when the brief needs it.",
+    a: "No. We work in both Chinese and English across briefs, sets, and delivery.",
   },
   {
     q: "How fast can we start?",

@@ -192,8 +192,11 @@
   display: inline-flex;
   align-items: center;
   gap: var(--space-75);
-  margin-top: var(--space-300);
   color: color-mix(in srgb, var(--ink) 72%, transparent);
+}
+
+.hero-proof.caption-1 {
+  margin-top: var(--space-400);
 }
 
 @keyframes sunspin {
@@ -325,7 +328,7 @@
 
 .social-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: var(--space-300);
 }
 
@@ -411,8 +414,11 @@
 }
 
 .faq-lead {
-  margin-top: var(--space-200);
   max-width: 36ch;
+}
+
+.body-6.faq-lead {
+  margin-top: var(--space-300);
 }
 
 .faq-list {
@@ -587,6 +593,14 @@
   .hero {
     align-items: center;
     padding-top: calc(var(--space-900) + var(--space-300));
+  }
+
+  .hero-proof.caption-1 {
+    margin-top: var(--space-200);
+  }
+
+  .body-6.faq-lead {
+    margin-top: var(--space-100);
   }
 
   .sunburst {
