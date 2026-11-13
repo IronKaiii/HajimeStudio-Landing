@@ -196,7 +196,7 @@
 }
 
 .hero-proof.caption-1 {
-  margin-top: var(--space-400);
+  margin-top: var(--space-200);
 }
 
 @keyframes sunspin {
@@ -418,7 +418,7 @@
 }
 
 .body-6.faq-lead {
-  margin-top: var(--space-300);
+  margin-top: var(--space-100);
 }
 
 .faq-list {
@@ -596,11 +596,11 @@
   }
 
   .hero-proof.caption-1 {
-    margin-top: var(--space-200);
+    margin-top: var(--space-75);
   }
 
   .body-6.faq-lead {
-    margin-top: var(--space-100);
+    margin-top: calc(var(--space-100) / 2);
   }
 
   .sunburst {

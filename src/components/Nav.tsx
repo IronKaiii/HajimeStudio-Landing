@@ -53,12 +53,7 @@ export function Nav() {
         <nav className="nav" aria-label="Primary">
           <a className="nav-brand" href="#top" aria-current={active === "#top" ? "page" : undefined}>
             <span className="mark" aria-hidden="true">
-              <svg viewBox="0 0 32 32" fill="none">
-                <path d="M16 28 L4 28 L16 6 L28 28 Z" fill="currentColor" />
-                <path d="M16 22 H8" stroke="#F6F1EA" strokeWidth="2" strokeLinecap="round" />
-                <path d="M16 18 H10" stroke="#F6F1EA" strokeWidth="2" strokeLinecap="round" />
-                <path d="M16 14 H12" stroke="#F6F1EA" strokeWidth="2" strokeLinecap="round" />
-              </svg>
+              <img src="/assets/team/hic-logo.png" alt="" width={28} height={28} />
             </span>
             <span className="title-4">HAJIME STUDIO</span>
           </a>
